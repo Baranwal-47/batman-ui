@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+
+.page {
+	min-height: 100vh;
+	color: #fff;
+	background: #050505;
+}
+
+.ambient-audio {
+	display: none;
+}
+
+.audio-unlock {
+	position: fixed;
+	right: 24px;
+	bottom: 24px;
+	padding: 12px 18px;
+	border: 1.5px solid var(--red);
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+	cursor: pointer;
+	backdrop-filter: blur(6px);
+	z-index: 2000;
+	transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.audio-unlock:hover {
+	border-color: #e8001f;
+	transform: translateY(-2px);
+}
+
+.st-btn.st-btn--gold {
+	border-color: var(--gold);
+}
+
+.st-btn.st-btn--gold::after {
+	background: var(--gold);
+}

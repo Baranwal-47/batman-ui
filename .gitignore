@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local skills (not committed)
+.github/skills/cinematic-hero-style/SKILL.md

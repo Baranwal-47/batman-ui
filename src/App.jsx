@@ -1,13 +1,16 @@
 
 import './App.css'
+import AmbientAudio from './components/AmbientAudio'
+import ContentSections from './components/ContentSections'
 import Hero from './components/Hero'
 
 function App() {
-
   return (
-    <>
-     <Hero />
-    </>
+    <div className="page">
+      <AmbientAudio src="/audio/Batman.mp3" />
+      <Hero />
+      <ContentSections />
+    </div>
   )
 }
 
